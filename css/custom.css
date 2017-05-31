@@ -1,0 +1,140 @@
+* {
+    font-family: 'Proxima Nova', Georgia, sans-serif !important;
+}
+
+section {
+    min-height: 95vh;
+}
+
+.navbar {
+    margin-bottom: 0 !important;
+    min-height: 100px;
+}
+
+.navbar-default {
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+
+.navbar-nav {
+    margin-top: 25px;
+}
+
+.navbar-brand > img {
+    margin-top: -12px;
+}
+
+#about, #contact {
+    background-color: #333b50;
+    color: #fff;
+}
+
+section#about {
+    padding-top: 80px;
+}
+
+#jumbotron {
+    background: linear-gradient(to bottom, rgba(1,1,1, 0.5) 100%, rgba(1,1,1, 0.5) 100%), url("../img/jumbo-image.JPG");
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbo-text {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: 15px !important;
+    margin-top: 100px;
+}
+
+.jumbo-text-p {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 75px;
+    letter-spacing: 15px;
+}
+
+.jumbo-text > span {
+    color: #ffd500 !important;
+}
+
+.about-text {
+    line-height: 45px;
+}
+
+.btn {
+    border-radius: 0 !important;
+}
+
+.btn-default {
+    border-color: #00d646;
+    background-color: transparent;
+    color: #fff;
+}
+
+
+.btn-default:hover {
+    border-color: #00d646;
+    background-color: #00d646;
+    color: #fff;
+}
+
+.download-btn {
+    margin-top: 70px;
+}
+
+#professional {
+    /*background-color: #0a1124;*/
+    background: linear-gradient(to bottom, rgba(10,17,36, 0.8) 100%, rgba(10,17,36, 0.8) 100%), url("../img/professional.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.professional-text {
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 20px;
+    font-size: 45px;
+    margin-top: 80px;
+}
+
+.professional-text > span {
+    color: #bec7d5 !important;
+}
+
+.professional-text > small {
+    color: #fff !important;
+    font-size: 25px !important;
+    letter-spacing: 10px !important;
+}
+
+.skills {
+    color: #fff;
+    margin-top: 150px;
+}
+
+.skills-percent {
+    margin-left: 20px;
+}
+
+.progress {
+    border-radius: 0;
+    background-color: transparent;
+    height: 14px !important;
+}
+
+.progress-bar-warning {
+    background-color: #ffd500 !important;
+}
+
+.skill-item {
+    margin-bottom: 20px;
+}
+
+.skill-item-text {
+    color: #bec7d5 !important;
+}
+
+.contact-container {
+    margin-top: 100px;
+}
